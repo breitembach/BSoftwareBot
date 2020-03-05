@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <!--FÃ¡brica de software-->
+    
+    
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li> A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo!</li>
+<li>Oi, a Bsoftware estÃ¡ com descontos para projetos!</li>
+<li>olÃ¡!! em que posso te ajudar?</li>
+</random>
+</template>
+</category>
+
+
+<category><pattern>oi</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        </random>
+    </template>
+</category> 
+
+<category><pattern>ola</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        </random>
+    </template>
+</category> 
+
+<category><pattern>me ajuda</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        </random>
+    </template>
+</category> 
+
+<category><pattern>ajuda</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        <li>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+        </li>
+        </random>
+    </template>
+</category> 
+
+<category><pattern>* me ajuda</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        </random>
+    </template>
+</category> 
+
+<category><pattern>me ajuda *</pattern>
+    <template>
+        <random>
+        <li>olÃ¡!! em que posso te ajudar?</li>
+        <li>Oi, a Bsoftware estÃ¡ com descontos para projetos</li>
+        </random>
+    </template>
+</category> 
+
+
+<category><pattern>* bom dia *</pattern>
+    <template>
+        Bom dia! em que posso te ajudar?
+    </template>
+</category> 
+
+<!--bom dia-->
+<category><pattern>* bom dia *</pattern>
+    <template>
+        Bom dia! em que posso te ajudar?
+    </template>
+</category> 
+
+<category><pattern>* bom dia</pattern>
+    <template>
+        Bom dia! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>bom dia *</pattern>
+    <template>
+        Bom dia! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>bom dia</pattern>
+    <template>
+        Bom dia! em que posso te ajudar?
+    </template>
+</category> 
+
+<!--boa tarde-->
+<category><pattern>* boa tarde *</pattern>
+    <template>
+        boa tarde! em que posso te ajudar?
+    </template>
+</category> 
+
+<category><pattern>* boa tarde</pattern>
+    <template>
+        boa tarde! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>boa tarde *</pattern>
+    <template>
+        boa tarde! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>boa tarde</pattern>
+    <template>
+        boa tarde! em que posso te ajudar?
+    </template>
+</category> 
+
+<!--boa noite-->
+<category><pattern>* boa noite *</pattern>
+    <template>
+        boa noite! em que posso te ajudar?
+    </template>
+</category> 
+
+<category><pattern>* boa noite *</pattern>
+    <template>
+        boa noite! em que posso te ajudar?
+    </template>
+</category> 
+
+<category><pattern>* boa noite</pattern>
+    <template>
+        boa noite! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>boa noite *</pattern>
+    <template>
+        boa noite! em que posso te ajudar?
+    </template>
+</category> 
+<category><pattern>boa noite</pattern>
+    <template>
+        boa noite! em que posso te ajudar?
+    </template>
+</category> 
+
+<!--all-->
+
+<category><pattern>* software</pattern>
+    <template>
+        A bsoftware Ã© especializada em criar software de qualidade!
+        <link>
+            <text>clique aqui para saber mais</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+<category><pattern>software</pattern>
+    <template>
+        A bsoftware Ã© especializada em criar software de qualidade!
+        <link>
+            <text>clique aqui para saber mais</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>quero um site</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>* site</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>site *</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>quero um site para minha empresa</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>* quero um site</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>quero um site *</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>wordpress *</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>*wordpress</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>wordpress</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+ 
+<category><pattern>criar site *</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>* criar site</pattern>
+    <template>
+        A Bsofware faz a criaÃ§Ã£o de sites, veja alguns cases neste link abaixo
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>* minha empresa</pattern>
+    <template>
+        A BSOFTWARE Ã© especializada em montar o site da sua empresa
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>minha empresa *</pattern>
+    <template>
+        A BSOFTWARE Ã© especializada em montar o site da sua empresa
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category> 
+
+<category><pattern>empresa *</pattern>
+    <template>
+        A BSOFTWARE Ã© especializada em montar o site da sua empresa
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>* empresa</pattern>
+    <template>
+        A BSOFTWARE Ã© especializada em montar o site da sua empresa
+        <link>
+            <text>ver portfolio</text>
+            <url>https://br.linkedin.com/company/bmsoftware</url>
+        </link>
+    </template>
+</category>
+
+
+
+
+
+</aiml>

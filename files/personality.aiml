@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <!--Fabrica de software-->
+
+<category><pattern>oiii</pattern>
+    olÃ¡!! em que posso te ajudar?
+<random>
+    <li>Oi! estÃ¡ precisando de algo?</li>
+    <li>A empresa Bsofware pode te ajudar?</li>
+</random>
+</category>
+
+</aiml>
